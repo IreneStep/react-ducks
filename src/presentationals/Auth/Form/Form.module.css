@@ -1,0 +1,26 @@
+.tabs__form {
+  background-color: #00b3be;
+  width: 80%;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  outline: none;
+}
+
+.link {
+  width: 45%;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #fff;
+  display: inline-block;
+  height: 6vh;
+  cursor: pointer;
+  width: 100%;
+  border-style: none;
+  margin-bottom: 2vh;
+
+}

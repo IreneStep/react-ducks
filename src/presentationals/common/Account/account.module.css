@@ -1,0 +1,27 @@
+.wrapper__account {
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00b3be;
+}
+
+.account__avatar {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+.account__nickname {
+  color: #fff;
+  margin: auto 0;
+}
+.avatar__icon {
+  margin: auto 0;
+  padding-right: 5%;
+}
+.account__sign__out img {
+  padding-top: 50%;
+  cursor: pointer;
+}

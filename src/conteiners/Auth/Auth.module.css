@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  width: 100%;
+  background: #00b3be;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.section__left {
+  background-image: url(../../assets/login-bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #00b3be;
+  flex-grow: 5;
+}
+
+.section__right {
+  background-color: #00b3be;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.right__logo {
+  padding: 10vh 0% 10vh 0%;
+}
+
+@media screen and (max-width: 426px) {
+  .section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .section__left {
+    height: 100vh;
+    background-color: #f2e7e4;
+  }
+
+  .section__right {
+    height: 100vh;
+  }
+}

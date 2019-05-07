@@ -1,0 +1,25 @@
+.input {
+  display: block;
+  width: 100%;
+  background-color: #00b3be;
+  border-style: none;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+  outline: none;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: #fff;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #fff;
+  display: inline-block;
+  height: 6vh;
+  cursor: pointer;
+  width: 100%;
+  border-style: none;
+}

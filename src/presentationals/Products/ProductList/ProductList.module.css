@@ -1,0 +1,9 @@
+.content__box {
+  height: 80vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
