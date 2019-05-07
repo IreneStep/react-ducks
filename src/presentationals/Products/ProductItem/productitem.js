@@ -1,19 +1,15 @@
 import React from "react";
 import eye_icon from "../../../assets/eye-icon.png";
 import s from "../ProductItem/ProductItem.module.css";
-import defaultProductImage from '../../../assets/product1.jpg';
-import { Link } from 'react-router-dom';
-
+import defaultProductImage from "../../../assets/product1.jpg";
+import { Link } from "react-router-dom";
 
 const ProductItem = ({ product }) => {
-  const {
-    images,
-    theme,
-  } = product;
+  const { images, theme, pk } = product;
 
   return (
     <div className={s.box__product}>
-      <Link to="/products/">
+      <Link to={`/products/${pk}`}>
         <div className={s.product__img}>
           <img
             src={images.length > 0 ? images[0].file : defaultProductImage}

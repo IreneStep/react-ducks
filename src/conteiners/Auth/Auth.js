@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import s from '../Auth/Auth.module.css';
-import sell_it_logo_white from '../../assets/sell-it-logo-white.png';
-import Form from '../../presentationals/Auth/Form/Form';
+import s from "../Auth/Auth.module.css";
+import sell_it_logo_white from "../../assets/sell-it-logo-white.png";
+import Form from "../../presentationals/Auth/Form/Form";
 
 class Auth extends Component {
   render() {

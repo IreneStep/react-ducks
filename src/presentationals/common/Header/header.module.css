@@ -1,35 +1,40 @@
 .header {
-  height: 14vh;;
+  height: 14vh;
+  ;
   width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #fff;
 }
+
 .header__logo {
   padding-left: 5%;
   padding-top: 1vh;
 }
+
 @media screen and (max-width: 426px) {
   .header {
-   height: 27vh;
-   width: 75%;
-   flex-wrap: wrap;
-   flex-direction: column;
-   margin: 0 auto;
+    height: 27vh;
+    width: 75%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
   }
+
   .header__logo {
     padding-left: 0;
   }
 
 }
+
 @media screen and (max-width: 376px) {
   .header {
     width: 85%;
   }
 }
+
 @media screen and (max-width: 320px) {
   .header {
     width: 100%;
   }
 }
-

@@ -5,6 +5,7 @@
   width: 25%;
   padding-top: 3vh;
 }
+
 .button {
   position: absolute;
   left: 0;
@@ -12,13 +13,17 @@
   padding-top: 3vh;
   cursor: pointer;
 }
-.input, .button {
+
+.input,
+.button {
   background-color: #fff;
   border-style: none;
   outline: none;
 }
+
 .input {
-  padding-left: 15px; width: 100%;
+  padding-left: 15px;
+  width: 100%;
 }
 
 @media screen and (max-width: 426px) {

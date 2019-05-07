@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 
 const Account = () => {
   return (
+    <div className={s.header__account}>
+
     <div className={s.wrapper__account}>
       <div className={s.account__avatar}>
         <div className={s.avatar__icon}>
@@ -14,12 +16,13 @@ const Account = () => {
 
         <div className={s.account__nickname}>Kim Evans</div>
 
-        <div className={s.account__sign__out}>
-          <Link to="/auth/sign-in">
-            <img src={icon} alt="Sign out icon" />
+        
+          <Link className={s.account__sign__out} to="/auth/sign-in">
+            <img  src={icon} alt="Sign out icon" />
           </Link>
-        </div>
+        
       </div>
+    </div>
     </div>
   );
 };

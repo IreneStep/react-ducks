@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import sell_it_logo from "../../../assets/sell-it.png";
 import SearchBar from "../SearchBar/searchbar";
 import Account from "../Account/account";

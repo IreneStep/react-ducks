@@ -7,3 +7,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+  .content__box {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .content__box {
+    height: 67vh;
+  }
+}

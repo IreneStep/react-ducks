@@ -6,6 +6,13 @@
   justify-content: space-between;
   background-color: #00b3be;
 }
+.header__account {
+  background-color: #00b3be;
+  width: 30%;
+  height: 7vh;
+  position: relative;
+}
+
 
 .account__avatar {
   display: flex;
@@ -21,7 +28,14 @@
   margin: auto 0;
   padding-right: 5%;
 }
-.account__sign__out img {
-  padding-top: 50%;
-  cursor: pointer;
+.account__sign__out  {
+    padding-top: 5%;
+    display: inline-block;
+    margin-left: 50%;
+}
+
+@media screen and (max-width: 426px) {
+  .header__account {
+    width: 100%;
+  }
 }

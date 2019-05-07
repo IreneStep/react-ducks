@@ -1,15 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 // import 'index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import { Provider } from 'react-redux';
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import { Provider } from "react-redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import { applyMiddleware, createStore } from "redux";
 import reducers from "./ducks/reducers";
 import logger from "./ducks/middlewears";
 import createSagaMiddleware from "redux-saga";
 import rootSaga from "./ducks/sagas";
+import { BrowserRouter } from "react-router-dom";
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(
@@ -20,7 +21,9 @@ sagaMiddleware.run(rootSaga);
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </Provider>,
   document.getElementById("root")
 );
